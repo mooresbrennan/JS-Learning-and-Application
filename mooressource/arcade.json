@@ -1,0 +1,69 @@
+{
+  "arcade": {
+    "location": "Voltagy Arcade",
+    "machines": [
+      {
+        "title": "Space Invaders",
+        "year": 1978,
+        "status": "working",
+        "highscores": [
+          15000,
+          12000,
+          9000,
+          8700
+        ]
+      },
+      {
+        "title": "Donkey Kong",
+        "year": 1981,
+        "status": "out of order",
+        "highscores": [
+          25000,
+          20000,
+          19500
+        ]
+      },
+      {
+        "title": "Street Fighter II",
+        "year": 1991,
+        "status": "working",
+        "highscores": []
+      },
+      {
+        "title": "Mortal Kombat 3",
+        "year": 1995,
+        "status": "working",
+        "highscores": [
+          30000,
+          19500,
+          2000
+        ]
+      },
+      {
+        "title": "Tekken",
+        "year": 1994,
+        "status": "out of order",
+        "highscores": [
+          42000,
+          17000,
+          9000
+        ]
+      },
+      {
+        "title": "The Simpsons",
+        "year": 1991,
+        "status": "working",
+        "highscores": [
+          19000,
+          8000
+        ]
+      },
+      {
+        "title": "NBA Jam",
+        "year": 1993,
+        "status": "working",
+        "highscores": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+    "discography" : {
+        "albums" : [
+            {"name" : "Pablo Honey",
+            "release" : 1993,
+            "songs": [
+                "You",
+                "Creep",
+                "Stop Whispering",
+                "Thinking About You",
+                "Anyone Can Play Guitar",
+                "Ripcord",
+                "Vegetable",
+                "Prove Yourself",
+                "I Can't",
+                "Lurgee",
+                "Blow Out"
+            ]},
+            {"name": "The Bends",
+            "release": 1995,
+            "songs":[
+                "Planet Telex",
+                "The Bends",
+                "High and Dry",
+                "Fake Plastic Trees",
+                "Bones",
+                "(Nice Dream)",
+                "Just",
+                "My Iron Lung",
+                "Bullet Proof (I wish I was)",
+                "Black Star",
+                "Sulk",
+                "Street Spirit (Fade Out)"
+            ]},
+            {"name": "OK Computer",
+            "release": 1997,
+            "songs":[
+                "Airbag",
+                "Paranoid Android",
+                "Subterranean Homesick Alien",
+                "Exit Music (For A Film)",
+                "Let Down",
+                "Karma Police",
+                "Fitter Happier",
+                "Electioneering",
+                "Climbing Up the Walls",
+                "No Surprises",
+                "Lucky",
+                "The Tourist"
+            ]}
+        ]
+    }
+}
