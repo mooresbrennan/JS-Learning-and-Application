@@ -1,23 +1,33 @@
 import logo from './TrixelIcon.png';
 import './App.css';
+import { useEffect, useState } from 'react';
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Brennan's Blitzstrike-themed React demo.
-        </p>
-        <a
-          className="App-link"
-          href="https://store.steampowered.com/app/3654000/Blitzstrike/#:~:text=Blitzstrike%20on%20Steam.%20Blitzstrike%20is%20a%20fast%2Dpaced,with%20her%20greatest%20threat%20yet.%20All%20Reviews:"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Check out Blitzstrike!
-        </a>
-      </header>
+  const [albums, setSongs] = useState([]);
+
+  useEffect(() => {
+    fetch("http://localhost:3000/songs")
+    .then(res => res.json())
+    .then(data => setSongs(data))
+    .catch(err => console.error("Error: ", err))
+  }, []);
+
+  return(
+    <div style={{fontFamily: "Jersey 15, sans-serif"}}>
+      <h1>Radiohead Songs</h1>
+      <ul>
+        {albums.map((album, i) => (
+          <div key={i}>
+            <h2>{album.name} ({album.release})</h2>
+            <ul>
+              {album.songs.map((song, j) => (
+                <li key={j}>{song}</li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </ul>
     </div>
   );
 }
