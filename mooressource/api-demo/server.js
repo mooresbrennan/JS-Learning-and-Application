@@ -3,11 +3,12 @@ const fs = require("fs");
 const cors = require("cors");
 
 const app = express();
-const port = 3000;
+const port = 3001;
 
 const data = JSON.parse(fs.readFileSync("radiohead.json", "utf8"));
 
 app.use(cors());
+app.use("/images", express.static(__dirname));
 
 app.get("/albums", (req, res) => {
     console.log("Does it work now?");

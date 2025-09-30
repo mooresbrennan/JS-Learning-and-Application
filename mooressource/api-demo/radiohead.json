@@ -2,6 +2,7 @@
     "discography" : {
         "albums" : [
             {"name" : "Pablo Honey",
+            "art": "/images/pablohoney.jpg",
             "release" : 1993,
             "songs": [
                 "You",
@@ -17,6 +18,7 @@
                 "Blow Out"
             ]},
             {"name": "The Bends",
+            "art": "/images/thebends.jpg",
             "release": 1995,
             "songs":[
                 "Planet Telex",
@@ -33,6 +35,7 @@
                 "Street Spirit (Fade Out)"
             ]},
             {"name": "OK Computer",
+            "art": "/images/okcomputer.png",
             "release": 1997,
             "songs":[
                 "Airbag",
